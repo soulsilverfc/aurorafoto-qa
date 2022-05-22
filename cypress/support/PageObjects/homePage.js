@@ -19,5 +19,7 @@ class homePage
     navPoliticaPrivacidad() { return cy.xpath("(//a[contains(text(),'Política de privacidad')])[1]") }
     navPoliticaCookies() { return cy.xpath("(//a[contains(text(),'Política de cookies')])[1]") }
     slider() { return cy.get('.swiper-slide-active > .slider-content') }
+    textContainer() { return cy.get('.entry-content') }
+    listProdutImpresiones() { return cy.get('.global_content_wrapper') }
 }
 export default homePage;

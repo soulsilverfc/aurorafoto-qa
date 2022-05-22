@@ -10,7 +10,8 @@
     "runChrome": "cypress run --browser chrome"
   },
   "cypress-cucumber-preprocessor": {
-    "nonGlobalStepDefinitions": true
+    "step_definitions": "cypress/integration/cucumber/step_definitions/**/",
+    "nonGlobalStepDefinitions": false
   },
   "dependencies": {
     "cypress-real-events": "^1.7.0",

@@ -1,6 +1,7 @@
 Feature: Test Home Page
  
-    Este feature esta siendo adaptado desde un formato de pom hacia cucumber
+    Test home page
+    
     @test-001
     Scenario: Check elements navs
     Given The user is on the home page
